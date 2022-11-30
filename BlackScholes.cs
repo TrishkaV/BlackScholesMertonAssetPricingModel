@@ -135,8 +135,10 @@ namespace YOURNAMESPACE
         internal static (double delta, double gamma, double theta, double vega, double rho)
             Greeks(double S, double K, double v, double r, double q, double t, bool isCall, bool isCalendarDays = true, double d1 = 0, double d2 = 0)
         {
-            d1 = d1 != 0 ? d1 : (Log(S / K) + t * (r - q + v * v / 2)) / (v * Sqrt(t));
-            d2 = d2 != 0 ? d2 : d1 - v * Sqrt(t);
+            var t1 = t / (isCalendarDays ? 365 : 252);
+
+            d1 = d1 != 0 ? d1 : (Log(S / K) + t1 * (r - q + v * v / 2)) / (v * Sqrt(t1));
+            d2 = d2 != 0 ? d2 : d1 - v * Sqrt(t1);
 
 #if DEBUG
             var delta = Delta(S, K, v, r, q, t, isCall, isCalendarDays, d1, d2);

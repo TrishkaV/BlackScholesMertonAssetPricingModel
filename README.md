@@ -4,7 +4,11 @@
 **Lightweight** and **fast .NET implementation** of one of the most commonly used pricing models in finance.<br><br>
 This model comes from Black-Scholes' "The Pricing of Options and Corporate Liabilities" (1973) revised by Merton the same year in "Theory of Rational Option Pricing" to account for dividends and is the most used to this day.<br><br>
 
-**Example of put option:**<br>
+This package is also available on **NuGet** ([here](https://www.nuget.org/packages/TrishkaV.BSM-AssetPricingModel/)) and installed using the command:<br>
+*dotnet add package TrishkaV.BSM-AssetPricingModel*
+<br><br>
+
+**Example of put option:**<br><br>
 <img src="https://user-images.githubusercontent.com/96583994/202844390-f89311b9-87e7-414f-a89f-e17d03d1e0cb.png"><br><br>
 
 -------------------------------------

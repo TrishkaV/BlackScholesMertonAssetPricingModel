@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+      <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageId>TrishkaV.BSM-AssetPricingModel</PackageId>
+    <Version>1.0.5</Version>
+    <Authors>TrishkaV</Authors>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Description>Lightweight and fast .NET implementation of the Black-Scholes-Merton asset pricing model. Open source project at github.com/TrishkaV/BlackScholesMertonAssetPricingModel</Description>
+    <Tags>Black Scholes, Black Scholes Merton, Option Pricing, Option Pricing Model, Asset Pricing, Asset Pricing Model</Tags>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <None Include="docs\readme.md" Pack="true" PackagePath=""/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MathNet.Numerics" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>

@@ -12,8 +12,18 @@ This package is also available on **NuGet** ([here](https://www.nuget.org/packag
 <img src="https://user-images.githubusercontent.com/96583994/202844390-f89311b9-87e7-414f-a89f-e17d03d1e0cb.png"><br><br>
 
 -------------------------------------
+**Usage is as straightforward as possible:**<br><br>
+<img src="https://user-images.githubusercontent.com/96583994/227778475-5937f3e9-0952-4f83-981a-b1a88841d6a4.png"><br><br>
+<img src="https://user-images.githubusercontent.com/96583994/227778617-2c0b5ebc-2ec4-42e7-948e-8bf8bf32fa2b.png"><br><br>
+
+**Every method is documented with a clear explaination on what input is expected:**<br><br>
+<img src="https://user-images.githubusercontent.com/96583994/227782638-bb6e5461-eb66-404d-99f3-1726d4bbc405.png"><br><br>
+
+
+
+-------------------------------------
 **Inputs explained**<br>
-            S = underlying price (often denominated as "S0")<br>
+            S = underlying's price (often denominated as "S0")<br>
             K = option's strike price (often denominated as "X")<br>
             v = implied volatility<br>
             r = risk-free rate (is advised the "U.S. 10 Year Treasury Rate")<br>

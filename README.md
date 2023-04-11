@@ -8,6 +8,9 @@ This package is also available on **NuGet** ([here](https://www.nuget.org/packag
 *dotnet add package TrishkaV.BSM-AssetPricingModel*
 <br><br>
 
+add "**using BlackScholesMertonAssetPricingModel;**", then call the static class methods with: "**BlackScholes._____()**" e.g. "BlackScholes.Price(...)"
+<br><br>
+
 **Example of put option:**<br><br>
 <img src="https://user-images.githubusercontent.com/96583994/202844390-f89311b9-87e7-414f-a89f-e17d03d1e0cb.png"><br><br>
 
